@@ -946,7 +946,7 @@ declare namespace React {
      * @version 16.8.0
      * @see https://react.dev/reference/react/useContext
      */
-    function useContext<T>(context: Context<T> /*, (not public API) observedBits?: number|boolean */): T;
+    function useContext<T>(context: Context<T> /*, (not public API) observedBits?: number|boolean */): T | undefined;
     /**
      * Returns a stateful value, and a function to update it.
      *
